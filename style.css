@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    background-color: orangered;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 20px;
+}
+form input{
+    width: 250px;
+    transition: 0.5s;
+}
+form button{
+    background-color: #2D3355;
+    border: 1px solid #2D3355;
+    color: white;
+    width: 100px;
+}
+form input:focus{
+    width: 400px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D3355;
+    height: 45px;
+}
+.menu ul li{
+    padding: 10px 20px;
+    height: 100%;
+   
+}
+.menu ul li a{
+    color: white;
+}
+.menu ul li:hover{
+    background-color: yellow;
+}
+.menu ul li:hover a{
+    color: blue;
+    font-weight: bold;
+}
+.menu ul li:active{
+    background-color: orangered;
+}
+.menu ul li:active a{
+    color: white;
+    font-style: italic;
+}
+h1{
+    color: orangered;
+    text-align: center;
+    padding: 30px;
+}
+.content{
+    border: 2px solid orangered;
+    /* margin: 0px 20px; */
+    padding: 10px 20px;
+    height: 400px;
+    overflow: hidden;
+}
+h4{
+    color: orangered;
+    
+}
+p{
+   font-weight: 500;
+}
+.text{
+    margin-top: 20px;
+    background-color: white;
+    transition: 0.5s;
+    
+}
+.item{
+    padding-bottom: 10px;
+}
+.content:hover .text{
+    transform: translateY(-130%);
+}
+h2{
+    text-align: center;
+}
